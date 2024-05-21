@@ -1,14 +1,12 @@
-# 6
-
 AB = ( 	 
   
   ( 	 	
     
-    ( "early" OR "postpart*" ) 	 	 	 	 	 
+    ( "early" OR "postpart*" OR "early childhood" OR "early life" OR "first three years of life" ) 	 	 	 	 	 
     
     NEAR/3
     
-    ( "adversity"	OR "trauma" OR "violence" OR "maltreat*" OR	"harm" OR "neglect" OR "abuse" OR "stress*" ) 
+    ( "adversity"	OR "adverse" OR "trauma" OR "stress*" OR "abuse" OR "violence" OR "maltreat*" OR "harm" OR "neglect" ) 
     
   ) 
   
@@ -18,14 +16,14 @@ AND
 
 AB = ( 	 	
   
-  ( "child*" OR "adolesc*" ) 	 	 	
+  ( "child*" OR "adolesc*" OR "toddler*" OR "baby" OR "babies" OR "newborn*") NOT ("rodent*" OR "mice")
   
 ) 	 	
 
-AND 
+AND
 
 PY = ( (1990-2020) ) 	 	 	 	 
 
 AND 
 
-WC = ( "PSYCHOLOGY" or "PSYCHIATRY" OR "NEUROSCIENCES") 
+WC = ( "PSYCHOLOGY" OR "PSYCHIATRY" OR "NEUROSCIENCES") 
